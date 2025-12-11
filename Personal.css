@@ -2,6 +2,7 @@ nav {
     background-color: #aa2200;
     width:100%;
     height: 100px
+    
 }
 div.box {
     margin-top:10px;
@@ -11,9 +12,17 @@ div.box {
     height: 80px;
     width: 80%;
     float: right;
-    background-color: #a34709;
+    background-color: #dd6a51;
     justify-content: space-around;
 }
+
+nav .logo {
+    height: 80px; 
+    margin-left: 3%;
+    margin-right:3%;
+    margin-top: 10px;
+}
+
 
 a {
     color: white;
@@ -40,15 +49,138 @@ header {
 }
 
 .location-box {
-  background-color: #801818; /* dark grey */
+  background-color: #801818;
   color: white;
   width: 200px;
-  height: 300px;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.2rem;
   border-radius: 10px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+
+    border-radius: 20px;
+    border-width: 5px;
+    border-style: solid;
+    margin: 50px;
+    width: 60%;
+    background-color: rgba(167, 92, 92, 0.697);
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+.Profiles {
+    height: 30em;
+    margin: 50px;
+    display: flex;
+    background-color: rgba(117, 23, 23, 0.396);
+
+}
+.Realtor-images {
+    padding-left:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.Realtor-images img{
+    border-radius: 30px;
+    height:100px;
+    width: 100px;
+}
+.Descriptions{
+    padding:15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Description-box{
+    display: flex;
+    align-items: center;
+    height:70px;
+    gap: 20px;
+    background-color: rgb(156, 65, 65);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.spacelink{
+    color: black;
+    text-decoration: solid underline;
+}
+
+.travelheader{
+    width: 20%;
+    background-color: #aa2200;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 38.5%;
+
+}
+.Travel-boxes{
+    margin: 50px;
+    display:flex;
+    gap: 6%;
+    height: 400px;
+    justify-content: center;
+}
+.Travel-box{
+    background-color: rgba(167, 76, 58, 0.657);
+    width: 30%;
+    border-radius: 10px;
+}
+.Travel-box h1{
+    background-color: #ac410b52;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Travel-box p{
+    font-size: 20px;
+    padding: 15px;
+}
+
+iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 80%;
+    border: 5px solid rgba(0, 0, 0, 0.52);
+    border-radius: 10px;
+}
+
+form{
+    border: 3px solid rgba(0, 0, 0, 0.52);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    gap: 15px;
+    background-color: rgba(227, 24, 24, 0.34);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .background {
@@ -61,7 +193,7 @@ header {
 }
 
 footer{
-    position: absolute;
+    position: fixed;
     background-color: #aa2200;
     width: 100%;
     bottom:0;
